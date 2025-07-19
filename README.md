@@ -24,9 +24,7 @@ It is recommended to run this repository on WSL
 
 ### Step 3 : Download the BabyDataset
 
-+ Because the dataset is too large to commit to the repository
-cần truy cập dữ liệu vào link drive sau đây: https://drive.google.com/drive/folders/1eCvCmemwKBYNRHT3e0iPZCf2WM1v2Abz
-Bước 3: Sau khi đã tải về dữ liệu baby từ drive rùi thì cho dữ liệu baby vào folder data
++ Because the dataset is too large to commit to the repository, we have to download the file through this link: https://drive.google.com/drive/folders/1eCvCmemwKBYNRHT3e0iPZCf2WM1v2Abz
 
 <strong> Note:  When you have already downloaded all the necessary files, just move those files to the folder named ```data```
 </strong>
