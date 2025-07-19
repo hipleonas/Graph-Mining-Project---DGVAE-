@@ -4,34 +4,36 @@ This repository contains the implementation of DGVAE - Disentangled Graph Variat
 
 The original source code can be found at this link: https://github.com/enoche/DGVAE 
 
+## How to run the original repository
 
-How to use the repostory:
-Bước 1: Clone Repo về 
-Bước 2: Do tập dữ liệu dataset quá lớn nên không thể commit được lên trên repo như vậy nên
-cần truy cập dữ liệu vào link drive sau đây: https://drive.google.com/drive/folders/1eCvCmemwKBYNRHT3e0iPZCf2WM1v2Abz
-Bước 3: Sau khi đã tải về dữ liệu baby từ drive rùi thì cho dữ liệu baby vào folder data
-
-## Chú ý: lúc tải về chỉ cần copy các file vào folder baby tạo sẵn trên đây là được
-
-## How to run the priginal repository
-
-It is recommended to use WSL before using the repository
+It is recommended to run this repository on WSL
 
 ### Step 1: Create a virtual environment
 
-+ Create a virtual environment in WSL using miniconda: conda create -n your-env-name python=3.8 -y
++ Create a virtual environment in WSL using miniconda: ```conda create -n dgvae python=3.8 -y```
 
-+ Activate your virtual environment: conda activate your-env-name 
++ Activate your virtual environment: ```conda activate dgvae```
 
-### Step 2: Adding necessary packages, it is recommended to NOT use the command pip install -r requirements.txt, instead try to install the packages using manual pip install command belows
+### Step 2: Adding necessary packages
 
-+ pip install numpy scipy tqdm
++ it is recommended to NOT use the command pip install -r requirements.txt, instead try to install the packages using manual pip install command belows
 
-+ Install Pytorch GPU RTX 4060 (CUDA 12.1) : pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121. 
++ ```pip install numpy scipy tqdm```
 
-### Step 3: Run The Repository
++ Install Pytorch GPU RTX 4060 (CUDA 12.1) : ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121.``` 
 
-+ Finally, start the repo using: ./run-baby.sh
+### Step 3 : Download the BabyDataset
+
++ Because the dataset is too large to commit to the repository
+cần truy cập dữ liệu vào link drive sau đây: https://drive.google.com/drive/folders/1eCvCmemwKBYNRHT3e0iPZCf2WM1v2Abz
+Bước 3: Sau khi đã tải về dữ liệu baby từ drive rùi thì cho dữ liệu baby vào folder data
+
+<strong> Note:  When you have already downloaded all the necessary files, just move those files to the folder named ```data```
+</strong>
+
+### Step 4: Run The Repository
+
++ Finally, start the repo using: ```./run-baby.sh```
 
 
  
